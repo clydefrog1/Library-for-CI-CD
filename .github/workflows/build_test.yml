@@ -41,7 +41,7 @@ jobs:
     steps:
     - name: Clone the GitHub repo on the machine
       uses: actions/checkout@v4
-    - name: Deploy to Production
+    - name: Deploy to Production in Render
       uses: JorgeLNJunior/render-deploy@v1.4.4
       with:
         service_id: srv-cugcr156l47c73a1ikb0
